@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/daniel/.nvm/versions/node/v10.10.0/bin/node /Users/daniel/.yarn/bin/yarn.js init -a
+
+PATH: 
+  /Users/daniel/.yarn/bin:/Users/daniel/.config/yarn/global/node_modules/.bin:/Users/daniel/.nvm/versions/node/v10.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Applications/Wireshark.app/Contents/MacOS:/Users/daniel/go/bin:/Users/daniel/Civic/External/sjcl-cli:/Users/daniel/kmstools
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/daniel/.yarn/lib/cli.js:125657:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
